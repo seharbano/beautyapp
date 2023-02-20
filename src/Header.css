@@ -1,0 +1,89 @@
+.Header__logo{
+    border-radius: 8px;;
+    width: 100px;
+    margin-right: 20px;
+}
+.Header {
+height: 60px;
+display: flex;
+align-items: center;
+background-color:#131921;
+position: sticky;
+top: 0;
+z-index: 100;
+padding: 0px 20px;
+}
+.Header__bottom{
+    background-color: #232f3e;
+    cursor: pointer;
+}
+.Header__bottom ul {
+    list-style: none;
+    padding: 5px 30px 10px 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.Header__bottom ul li {
+    margin-right: 20px;
+    color: #fff;
+    height: 25px;
+  
+}
+.Header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Header__search input{
+    height: 23px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    width: 80%;
+    
+}
+.Header__searchIcon{
+    padding: 10px;
+    height: 20px;
+    background-color: hwb(44 4% 8%);
+    border-top-right-radius: 5px;
+}
+.Header__nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.Header__option{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+.Header__optionone{
+    font-size: 10px;
+    color: #fff;
+}
+.Header__optiontwo{
+    display: block;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Header__optionBasket{
+display: flex;
+color: #fff;
+margin-left: 10px;
+margin-right: 10px;
+cursor: pointer;
+align-items: center;
+}
+.banner h5{
+    text-align: center;
+    padding: 50%;
+  }
